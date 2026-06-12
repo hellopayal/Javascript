@@ -20,7 +20,7 @@ function lengthOfLongestSubstring(s) {
             set.delete(s[left]);
             left++;
         }
-        set.add(s[right]); { 'a', 'c', 'b' }
+        set.add(s[right]); 
         maxLength = Math.max(maxLength, right - left + 1)
     }
     return maxLength;
